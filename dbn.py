@@ -1,9 +1,6 @@
 import math
-#Tensorflow library. Used to implement machine learning models
 import tensorflow as tf
-#Numpy contains helpful functions for efficient mathematical calculations
 import numpy as np
-#Image library for image manipulation
 from PIL import Image
 class RBM(object):
     
