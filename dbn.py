@@ -229,6 +229,9 @@ class NN(object):
                 print ("Accuracy rating for epoch " + str(i) + ": " + str(np.mean(np.argmax(self._Y, axis=1) ==
                               sess.run(predict_op, feed_dict={_a[0]: self._X, y: self._Y}))))
                 
+                
+                
+             //TESTING PART//   
             self.w1_list = self.w_list
             self.b1_list = self.b_list
             _aa = [None] * (len(self._sizes) + 2)
